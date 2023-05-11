@@ -1,18 +1,10 @@
-import os
-
 from flask import Flask, abort, render_template
-import openai
 from langchain.llms import OpenAI
 from dotenv import load_dotenv
 
 load_dotenv()
 
 app = Flask(__name__)
-
-if not os.environ.get('OPENAI_API_KEY'):
-    raise Exception("OPENAI_API_KEY is not set")
-
-openai.api_key = os.getenv("OPENAI_API_KEY")
 
 
 @app.route("/")
