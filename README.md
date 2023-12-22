@@ -1,4 +1,3 @@
-![LangChain](https://repository-images.githubusercontent.com/638822415/4d2a0cb5-e353-4182-933c-7935468d8f55)
 # Kinsta - Hello World - LangChain
 
 An example of how to deploy a Flask application with [LangChain](https://python.langchain.com/en/latest/index.html) on Kinsta App Hosting services.
